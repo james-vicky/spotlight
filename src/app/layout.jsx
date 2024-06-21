@@ -7,10 +7,10 @@ export const metadata = {
   title: {
     template: '%s - Tin Tran',
     default:
-      'Tin Tran - I am a Software developer, entrepreneur, and jack of all trades',
+      'Vivekanand Vernekar',
   },
   description:
-    'I’m Vivekanand, a software developer and entrepreneur based in Ho Chi Minh city, Vietnam. I’m launching my digital agency TUDO, where we offer high ROI solutions for SMMA, copywriting, SEO, and funnel design. Besides I am a full time remote developer for an international company based in France.',
+    'I’m Vivekanand, a full stack developer building applications in React Js and Spring Boot',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
