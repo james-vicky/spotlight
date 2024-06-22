@@ -9,7 +9,7 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  TwitterIcon,
+  LeetCodeIcon
 } from '@/components/SocialIcons'
 import logoAmber from '@/images/logos/amber.svg'
 import logoIneuron from '@/images/logos/ineuron.svg'
@@ -210,15 +210,16 @@ export default async function Home() {
             to various projects. With around one year of experience, I am committed to solving complex problems and advancing my skills.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
+
             <SocialLink
               href="https://www.instagram.com/vvek_9"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
+            />
+            <SocialLink
+              href="https://www.linkedin.com/in/vivekanand-vernekar"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
             />
             <SocialLink
               href="https://github.com/vivekanand-vr"
@@ -226,10 +227,11 @@ export default async function Home() {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/vivekanand-vernekar"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+              href="https://leetcode.com/u/vicky_007/"
+              aria-label="Find me on Leetcode"
+              icon={LeetCodeIcon}
             />
+            
           </div>
         </div>
       </Container>
