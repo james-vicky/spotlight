@@ -5,7 +5,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 function ToolsSection({ children, ...props }) {
   return (
     <Section {...props}>
-      <ul role="list" className="space-y-16">
+      <ul role="list" className="space-y-10">
         {children}
       </ul>
     </Section>
@@ -24,89 +24,67 @@ function Tool({ title, href, children }) {
 }
 
 export const metadata = {
-  title: 'Uses',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
+  title: 'Skills, Stats, and Workstation',
+  description: 'This page is all about my coding statistics, skills and workstation',
 }
 
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Skills, Stats, and Tools"
+      intro="A brief overview of my coding statistics, a detailed breakdown of my skills, and the tools I use to create software. This page highlights my journey as a developer, showcasing my progress, capabilities, and the resources I rely on."
     >
-      <div className="space-y-20">
-        <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
-          </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
-          </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
-          </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
-          </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
-          </Tool>
-        </ToolsSection>
-        <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
-          </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
-          </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
-          </Tool>
-        </ToolsSection>
-        <ToolsSection title="Design">
-          <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
-          </Tool>
-        </ToolsSection>
-        <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
-          </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
-          </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
-          </Tool>
-        </ToolsSection>
+      <div className='mb-10 -mt-10'>
+        <h1 className='font-semibold text-2xl sm:text-3xl'>Tech Stack</h1>
+        <p className='mt-2 mb-6 text-base text-zinc-600 dark:text-zinc-400'>
+          The programming languages, technologies, frameworks, and tools I use to build and maintain my projects.
+        </p>
+          <div className='flex flex-wrap gap-4'>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/git/original.svg"></img>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/react/original.svg"></img>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/redux/original.svg"></img>
+            <img className='w-14 h-14' src="https://devicon-website.vercel.app/api/tailwindcss/plain.svg"></img>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/java/original.svg"></img>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/spring/original.svg"></img>
+            <img className='w-14 h-14' src="https://devicon-website.vercel.app/api/docker/plain.svg"></img>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/mysql/original.svg"></img>
+            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/mongodb/original.svg"></img>
+          </div>
       </div>
+
+      <h1 className="text-bold text-2xl font-semibold sm:text-3xl">My Coding Journey</h1>
+      <p className='mt-2 mb-6 text-base text-zinc-600 dark:text-zinc-400'>
+      My journey in coding is marked by continuous learning and problem-solving. Here are some of my achievements and statistics from platforms like LeetCode and GitHub.
+      </p>
+      <div className="flex flex-wrap gap-5 mb-10">
+          <img className="border border-gray-300 rounded-md overflow-hidden inline-block" src="https://leetcard.jacoblin.cool/vicky_007?theme=dark&font=Rubik&ext=contest" alt="leetcode profile"></img>
+          <img src="https://github-readme-stats.vercel.app/api?username=vivekanand-vr&theme=algolia&show_icons=true&hide_border=false&count_private=true" alt="github stats"></img>
+      </div>
+
+      <h1 className='font-semibold text-2xl sm:text-3xl'>Gadgets</h1>
+      <p className='mt-2 mb-6 text-base text-zinc-600 dark:text-zinc-400'>
+          The hardware and tools I use daily to build, code, and create.
+      </p>
+        <ToolsSection title="Workstation">
+          <Tool title="Asus ROG G17, 8GB GTX 1650 2021">
+            The powerhouse behind my development work. This laptop has 8 cores 16 threads that handles everything effortlessly, ensuring smooth performance even under heavy workloads.
+          </Tool>
+          <Tool title="BenQ GW2485TC 24-inch Monitor">
+            Crisp visuals and excellent color accuracy make this monitor ideal for both coding and design tasks especially with the "Coding Mode" the strain on eyes is reduced to a greater extent. The 24-inch size offers ample screen real estate without overwhelming my desk.
+          </Tool>
+          <Tool title="Protronics Hydra 10 Wireless Mechanical Keyboard">
+            The tactile feedback of mechanical blue keys enhances my typing speed and accuracy. With bluetooth connectivity it keeps the desk clean & satisfying to use, making long coding sessions more enjoyable.
+          </Tool>
+          <Tool title="Portronics Toad one">
+            A reliable and responsive mouse that complements my keyboard perfectly. Having adjustable DPI resolution & Type-C charging it is the best in the segment. The wireless feature keeps my workspace clutter-free and allows for smooth navigation.
+          </Tool>
+        </ToolsSection>
     </SimpleLayout>
   )
 }
+
+/*
+
+<img src="https://skillicons.dev/icons?i=cpp,js,git,react,redux,tailwind,java,hibernate,spring,docker,mysql,mongo&theme=light" />
+
+*/
