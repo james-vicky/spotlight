@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Tin Tran',
+    template: '%s - Vivekanand',
     default:
       'Vivekanand Vernekar',
   },

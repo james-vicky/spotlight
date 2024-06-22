@@ -7,41 +7,48 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 
+
+import rentify from '@/images/projects/rentify.png';
+import snackdash from '@/images/projects/snackdash.png';
+import monopoly from '@/images/projects/monopoly.png';
+import crm from '@/images/projects/crm.png';
+import smp from '@/images/projects/smp.png';
+
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Rentify',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoAnimaginary,
+      'A platform that allows users to buy and sell their properties. It aims to bridge the gap between property owners and tenants.',
+    link: { href: 'https://github.com/vivekanand-vr/Rentify', label: 'GitHub' },
+    logo: rentify,
   },
   {
-    name: 'Animaginary',
+    name: 'Snach Dash',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Food delivery application by the functionality of the popular Swiggy platform, allows users to search restaurants and add cuisines to cart and checkout.',
+    link: { href: 'https://github.com/vivekanand-vr/snackdash', label: 'GitHub' },
+    logo: snackdash,
   },
   {
-    name: 'HelioStream',
+    name: 'Monopoly',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'An API based 2-player monopoly game which can be played by sending post requests and in response it displayes transaction messages.',
+    link: { href: 'https://github.com/vivekanand-vr/monopoly-2player', label: 'GitHub' },
+    logo: monopoly,
   },
   {
-    name: 'cosmOS',
+    name: 'Customer Relationship Manager',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'This web application is built using Spring MVC and it efficiently manages customer details, empowering users to seamlessly add, update, or delete records.',
+    link: { href: 'https://github.com/vivekanand-vr/crmSystem-thymleaf', label: 'GitHub' },
+    logo: crm,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Student Management Portal',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'A student management portal to facilitate CRUD operations on student records. Implemented MVC design pattern.',
+    link: { href: 'https://github.com/vivekanand-vr/student_management_portal', label: 'GitHub' },
+    logo: smp,
   },
 ]
 
@@ -64,8 +71,8 @@ export const metadata = {
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Bringing Ideas to Life: My Software Development Projects"
+      intro="Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
     >
       <ul
         role="list"
@@ -77,7 +84,7 @@ export default function Projects() {
               <Image
                 src={project.logo}
                 alt=""
-                className="h-8 w-8"
+                className="h-9 w-9 rounded-full"
                 unoptimized
               />
             </div>
