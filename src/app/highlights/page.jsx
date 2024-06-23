@@ -31,24 +31,24 @@ export const metadata = {
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Skills, Stats, and Tools"
-      intro="A brief overview of my coding statistics, a detailed breakdown of my skills, and the tools I use to create software. This page highlights my journey as a developer, showcasing my progress, capabilities, and the resources I rely on."
+      title="Tech Stack, Stats, and Tools"
+      intro="A brief overview of my coding statistics, the tech stack I use to build applications, and the tools I use to create software. This page highlights my journey as a developer, showcasing my progress, capabilities, and the resources I rely on."
     >
       <div className='mb-10 -mt-10'>
         <h1 className='font-semibold text-2xl sm:text-3xl'>Tech Stack</h1>
         <p className='mt-2 mb-6 text-base text-zinc-600 dark:text-zinc-400'>
           The programming languages, technologies, frameworks, and tools I use to build and maintain my projects.
         </p>
-          <div className='flex flex-wrap gap-4'>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/git/original.svg"></img>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/react/original.svg"></img>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/redux/original.svg"></img>
-            <img className='w-14 h-14' src="https://devicon-website.vercel.app/api/tailwindcss/plain.svg"></img>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/java/original.svg"></img>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/spring/original.svg"></img>
-            <img className='w-14 h-14' src="https://devicon-website.vercel.app/api/docker/plain.svg"></img>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/mysql/original.svg"></img>
-            <img className='w-12 h-12' src="https://devicon-website.vercel.app/api/mongodb/original.svg"></img>
+          <div className='flex flex-wrap gap-5'>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/git/original.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/react/original.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/redux/original.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/tailwindcss/plain.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/java/original.svg"></img>
+            <img className='w-10 h-10 sm:w-14 sm:h-14 mt-2' src="https://devicon-website.vercel.app/api/spring/original.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/docker/plain-wordmark.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/mysql/original.svg"></img>
+            <img className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/mongodb/original.svg"></img>
           </div>
       </div>
 
