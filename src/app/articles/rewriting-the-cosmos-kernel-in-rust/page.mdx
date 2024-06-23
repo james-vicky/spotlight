@@ -25,25 +25,25 @@ In this article, we'll explore how to create shimmer components using the npm Sk
 Skeleton screens are UI placeholders that mimic the content structure while the actual data is being fetched. 
 They provide a more engaging user experience compared to traditional loading spinners.
 
-### Why Use Skeleton Screens?
+### Why Use Skeleton Screens ?
 
-- **Improved User Experience**: Skeleton screens give users a sense of progress and context, making the wait time 
+- **Improved User Experience** : Skeleton screens give users a sense of progress and context, making the wait time 
                                 feel shorter.
-- **Enhanced Perception of Speed**: By showing placeholders similar to the final content, users perceive the application as faster.
+- **Enhanced Perception of Speed** : By showing placeholders similar to the final content, users perceive the application as faster.
 
 ## Setting Up the Skeleton Package
 
 The npm Skeleton package is a convenient tool for creating skeleton screens. Let's start by setting it up in a 
 React project.
 
-1. **Installation**:
+1. **Installation** :
 
    First, install the `react-loading-skeleton` package from npm.
 
 ```bash
 npm install react-loading-skeleton
 ```
-2. **Basic Usage**:
+2. **Basic Usage** :
 Import the Skeleton component and use it in your React application.
 ```jsx
 import React from 'react';
@@ -74,7 +74,7 @@ export default UserProfile;
 ## Creating Custom Shimmer Components
 While the default Skeleton component is useful, you may want to create custom shimmer components for more complex UI elements.
 
-1. **Custom Skeleton Card**:
+1. **Custom Skeleton Card** :
 Let's create a custom skeleton card component that can be used as a placeholder for a card layout.
 ```jsx
 import React from 'react';
@@ -93,7 +93,7 @@ const SkeletonCard = () => {
 
 export default SkeletonCard;
 ```
-2. **Using Custom Skeleton Components**:
+2. **Using Custom Skeleton Components** :
 Now, use the SkeletonCard component as a placeholder while fetching data.
 ```jsx
 import React, { useState, useEffect } from 'react';

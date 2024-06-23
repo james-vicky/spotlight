@@ -204,7 +204,7 @@ export default async function Home() {
             Full Stack Developer and Problem Solver
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm Vivekanand Vernekar, a full stack developer passionate about building robust applications
+            I&apos;m Vivekanand Vernekar, a full stack developer passionate about building robust applications
             with modern technologies. My expertise lies in <span className='font-semibold text-black dark:text-white'> React Js & Spring Boot. </span> 
             With a dedication to continuous learning, I actively solve problems on LeetCode and contribute
             to various projects. With around one year of experience, I am committed to solving complex problems and advancing my skills.

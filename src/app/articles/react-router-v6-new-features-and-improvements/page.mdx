@@ -26,7 +26,7 @@ updates aimed at improving the developer experience and performance.
 
 ## Key Features of React Router v6
 
-1. **Simpler Route Definitions**:
+1. **Simpler Route Definitions** :
    React Router v6 introduces a new way to define routes using a nested routes structure. 
    This simplifies the route configuration and makes it easier to manage complex routing scenarios.
 
@@ -49,7 +49,7 @@ updates aimed at improving the developer experience and performance.
    }
 ```
 
-2. **Outlet Component**:
+2. **Outlet Component** :
 The new `<Outlet />` component allows for the rendering of nested routes within a parent route component. 
 This makes it easier to build layouts that include nested views.
 
@@ -64,7 +64,7 @@ function Dashboard() {
 }
 ```
 
-3. **Relative Links**:
+3. **Relative Links** :
 Relative links are now supported, making it simpler to navigate within nested routes without hardcoding paths.
 
 ```jsx
@@ -80,7 +80,7 @@ function Settings() {
 }
 ```
 
-4. **Hooks for Data Fetching**:
+4. **Hooks for Data Fetching** :
 React Router v6 introduces new hooks like `useNavigate`, `useLocation`, `useParams`, and `useMatch`, which 
 provide more flexibility and control over navigation and routing.
 
@@ -102,7 +102,7 @@ function Login() {
 ## Migration from React Router v5
 Migrating from v5 to v6 involves some breaking changes, but the new features and improvements are worth the effort. Here's a quick overview of the steps involved in the migration:
 
-### **Update Route Definitions**:
+### Update Route Definitions :
 Update your route definitions to use the new nested route structure.
 
 ```jsx
@@ -116,9 +116,9 @@ Update your route definitions to use the new nested route structure.
     <Route path="settings" element={<Settings />} />
   </Route>
 </Routes>
-Replace Switch with Routes:
-Replace the Switch component with the new Routes component.
 ```
+### Replace Switch with Routes :
+Replace the Switch component with the new Routes component.
 
 ```jsx
 // v5
@@ -133,7 +133,7 @@ Replace the Switch component with the new Routes component.
   <Route path="dashboard" element={<Dashboard />} />
 </Routes>
 ```
-### **Update Links and Redirects**:
+### **Update Links and Redirects** :
 Update your links and redirects to use the new relative navigation features.
 
 ```jsx
