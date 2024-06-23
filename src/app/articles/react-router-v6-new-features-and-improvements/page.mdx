@@ -1,0 +1,148 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Vivekanand Vernekar',
+  date: '2023-11-23',
+  title: 'Exploring React Router v6: New Features and Improvements',
+  description:
+    'A comprehensive guide to the new features and improvements in React Router v6, and how they enhance the development of modern web applications.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+React Router v6 brings a host of new features and improvements designed to make routing in React applications 
+simpler and more powerful. In this article, we'll explore these changes and how they can benefit your projects.
+
+## Introduction to React Router v6
+
+React Router is a popular library for handling navigation and routing in React applications. 
+With the release of v6, it introduces a number of significant 
+updates aimed at improving the developer experience and performance.
+
+## Key Features of React Router v6
+
+1. **Simpler Route Definitions**:
+   React Router v6 introduces a new way to define routes using a nested routes structure. 
+   This simplifies the route configuration and makes it easier to manage complex routing scenarios.
+
+```jsx
+   import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+   function App() {
+     return (
+       <BrowserRouter>
+         <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="about" element={<About />} />
+           <Route path="dashboard/*" element={<Dashboard />}>
+             <Route path="settings" element={<Settings />} />
+             <Route path="profile" element={<Profile />} />
+           </Route>
+         </Routes>
+       </BrowserRouter>
+     );
+   }
+```
+
+2. **Outlet Component**:
+The new `<Outlet />` component allows for the rendering of nested routes within a parent route component. 
+This makes it easier to build layouts that include nested views.
+
+```jsx
+function Dashboard() {
+  return (
+    <div>
+      <h1>Dashboard</h1>
+      <Outlet />
+    </div>
+  );
+}
+```
+
+3. **Relative Links**:
+Relative links are now supported, making it simpler to navigate within nested routes without hardcoding paths.
+
+```jsx
+import { Link } from 'react-router-dom';
+
+function Settings() {
+  return (
+    <div>
+      <h2>Settings</h2>
+      <Link to="profile">Go to Profile</Link>
+    </div>
+  );
+}
+```
+
+4. **Hooks for Data Fetching**:
+React Router v6 introduces new hooks like `useNavigate`, `useLocation`, `useParams`, and `useMatch`, which 
+provide more flexibility and control over navigation and routing.
+
+```jsx
+import { useNavigate } from 'react-router-dom';
+
+function Login() {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    // Perform login logic
+    navigate('/dashboard');
+  };
+
+  return <button onClick={handleLogin}>Login</button>;
+}
+```
+
+## Migration from React Router v5
+Migrating from v5 to v6 involves some breaking changes, but the new features and improvements are worth the effort. Here's a quick overview of the steps involved in the migration:
+
+### **Update Route Definitions**:
+Update your route definitions to use the new nested route structure.
+
+```jsx
+// v5
+<Route path="/dashboard" component={Dashboard} />
+<Route path="/dashboard/settings" component={Settings} />
+
+// v6
+<Routes>
+  <Route path="dashboard" element={<Dashboard />}>
+    <Route path="settings" element={<Settings />} />
+  </Route>
+</Routes>
+Replace Switch with Routes:
+Replace the Switch component with the new Routes component.
+```
+
+```jsx
+// v5
+<Switch>
+  <Route path="/about" component={About} />
+  <Route path="/dashboard" component={Dashboard} />
+</Switch>
+
+// v6
+<Routes>
+  <Route path="about" element={<About />} />
+  <Route path="dashboard" element={<Dashboard />} />
+</Routes>
+```
+### **Update Links and Redirects**:
+Update your links and redirects to use the new relative navigation features.
+
+```jsx
+// v5
+<Link to="/dashboard/settings">Settings</Link>
+
+// v6
+<Link to="settings">Settings</Link>
+```
+
+## Conclusion
+React Router v6 is a significant step forward in simplifying and enhancing routing in React applications. With its new features and improved API, it makes building complex routing scenarios more intuitive and manageable. By adopting v6, developers can benefit from cleaner code, better performance, and a more powerful routing solution.
