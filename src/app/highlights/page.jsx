@@ -29,7 +29,7 @@ export const metadata = {
   description: 'This page is all about my coding statistics, skills and workstation',
 }
 
-export default function Uses() {
+export default function Highlights() {
   return (
     <SimpleLayout
       title="Tech Stack, Stats, and Tools"
@@ -40,7 +40,7 @@ export default function Uses() {
         <p className='mt-2 mb-6 text-base text-zinc-600 dark:text-zinc-400'>
           The programming languages, technologies, frameworks, and tools I use to build and maintain my projects.
         </p>
-        <div className='flex flex-wrap gap-5'>
+        <div className='flex flex-wrap gap-5 mb-16'>
           <Image className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/git/original.svg" alt="Git" width={64} height={64} />
           <Image className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/react/original.svg" alt="React" width={64} height={64} />
           <Image className='w-12 h-12 sm:w-16 sm:h-16' src="https://devicon-website.vercel.app/api/redux/original.svg" alt="Redux" width={64} height={64} />
@@ -57,7 +57,7 @@ export default function Uses() {
       <p className='mt-2 mb-6 text-base text-zinc-600 dark:text-zinc-400'>
         My journey in coding is marked by continuous learning and problem-solving. Here are some of my achievements and statistics from platforms like LeetCode and GitHub.
       </p>
-      <div className="flex flex-wrap gap-5 mb-10">
+      <div className="flex flex-wrap gap-5 mb-16">
         <img className="border border-gray-300 rounded-md overflow-hidden inline-block" src="https://leetcard.jacoblin.cool/vicky_007?theme=dark&font=Rubik&ext=contest" alt="leetcode profile"></img>
         <img src="https://github-readme-stats.vercel.app/api?username=vivekanand-vr&theme=algolia&show_icons=true&hide_border=false&count_private=true" alt="GitHub stats" width={495} height={195} />
       </div>
@@ -83,9 +83,3 @@ export default function Uses() {
     </SimpleLayout>
   )
 }
-
-/*
-
-<img src="https://skillicons.dev/icons?i=cpp,js,git,react,redux,tailwind,java,hibernate,spring,docker,mysql,mongo&theme=light" />
-
-*/
