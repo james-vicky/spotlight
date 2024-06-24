@@ -4,8 +4,8 @@ import { Feed } from 'feed'
 export async function GET(req) {
   let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   let author = {
-    name: 'Tin Tran',
-    email: 'jaytintran@gmail.com',
+    name: 'Vivekanand Vernekar',
+    email: 'vivekvernekar21@gmail.com',
   }
 
   let feed = new Feed({
