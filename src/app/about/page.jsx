@@ -63,11 +63,11 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               I am Vivekanand Vernekar, a passionate software developer from India. 
-              My journey in the tech world began with a strong foundation in Java full-stack development, 
+              My journey in the tech world began with a strong foundation in Java Full Stack development, 
               complemented by coursework in core computer science subjects to enhance my technical knowledge.
             </p>
             <p>
-              With 1.5 years of experience at a dynamic startup, I have honed my skills in building robust applications
+              With 2+ years of experience at a dynamic startup, I have honed my skills in building robust applications
               using React JS and Spring Boot. My contributions to various projects have equipped me with a deep understanding
               of popular technologies, and my personal projects, showcased on GitHub, reflect my dedication to continuous learning and innovation.
             </p>

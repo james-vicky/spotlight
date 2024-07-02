@@ -88,7 +88,7 @@ const Resume = () => {
       logo: logoAmber,
       start: 'May 2024',
       end: {
-        label: 'Present',
+        label: 'July 2024',
         dateTime: new Date().getFullYear(),
       },
       responsibilities: [
@@ -157,7 +157,7 @@ const Resume = () => {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/file/d/1hxBKu2mDDu66L889xlGxtQBnpSRz3jYV/view"
+        href="https://drive.google.com/file/d/1YGahxUQ6iAaIhuDzIjJAHGfSqnkI2xq6/view?usp=sharing"
         variant="secondary"
         className="group mt-6 w-full"
       >
