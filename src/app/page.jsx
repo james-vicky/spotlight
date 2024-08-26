@@ -48,7 +48,7 @@ const Resume = () => {
       logo: logoAmber,
       start: 'May 2024',
       end: {
-        label: 'July 2024',
+        label: 'August 2024',
         dateTime: new Date().getFullYear(),
       },
       responsibilities: [
