@@ -1,8 +1,8 @@
 import Image from 'next/image'
-
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import rentify from '@/images/projects/rentify.png';
+import trackflow from '@/images/projects/trackflow.png';
 import snackdash from '@/images/projects/snackdash.png';
 import monopoly from '@/images/projects/monopoly.png';
 import crm from '@/images/projects/crm.png';
@@ -15,6 +15,13 @@ const projects = [
       'A platform that allows users to buy and sell their properties. It aims to bridge the gap between property owners and tenants.',
     link: { href: 'https://github.com/vivekanand-vr/Rentify', label: 'GitHub' },
     logo: rentify,
+  },
+  {
+    name: 'TrackFlow',
+    description:
+      'Streamlines job application management with a clean interface, making it easy to track and organize applications.',
+    link: { href: 'https://github.com/vivekanand-vr/trackflow', label: 'GitHub' },
+    logo: trackflow,
   },
   {
     name: 'Snach Dash',
@@ -74,7 +81,7 @@ export default function Projects() {
       >
         {projects.map((project) => (
           <Card as="li" key={project.name}>
-            <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
                 src={project.logo}
                 alt=""

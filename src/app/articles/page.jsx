@@ -46,7 +46,7 @@ export default async function ArticlesIndex() {
       title="Insights on Modern Web Development."
       intro="Explore my articles on various topics related to web development and modern technologies. From best practices and design patterns to deep dives into specific frameworks and tools, these articles reflect my experiences and learnings in the tech industry."
     >
-      <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+      <div className="md:border-l md:border-zinc-300 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">
           {articles.map((article) => (
             <Article key={article.slug} article={article} />

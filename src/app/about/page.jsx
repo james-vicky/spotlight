@@ -61,16 +61,16 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Hello! I&apos;m <span className='text-white'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in Java full-stack development, 
+              Hello! I&apos;m <span className='dark:text-white'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in Java full-stack development, 
               with a primary focus on front-end technologies like React JS and Tailwind CSS. 
               My journey in programming started two years ago, and since then, I&apos;ve honed my skills by creating impactful applications and tackling real-world challenges.
             </p>
             <p>
-              As the founder of <a href='https://marvelous-kheer-aaf2d6.netlify.app/' target='blank' className='font-semibold text-purple-400'>Sigma Next</a>, I&apos;m building an ed-tech platform that empowers students to master programming, develop innovative applications, 
+              As the founder of <a href='https://marvelous-kheer-aaf2d6.netlify.app/' target='blank' className='font-semibold dark:text-purple-400 text-purple-700'>Sigma Next</a>, I&apos;m building an ed-tech platform that empowers students to master programming, develop innovative applications, 
               and excel in technical interviews. We focus on practical, hands-on learning experiences.
             </p>
             <p>
-              Outside of tech, I own <a href='https://www.instagram.com/zsnapstudios/' target='blank' className='text-yellow-300 font-semibold'>Z-Snap Studios</a> as a passionate photographer. 
+              Outside of tech, I own <a href='https://www.instagram.com/zsnapstudios/' target='blank' className='dark:text-yellow-300 text-yellow-500 font-semibold'>Z-Snap Studios</a> as a passionate photographer. 
               Armed with my Nikon Z30, I pursue freelance photography, 
               specializing in events and portraits. This creative outlet allows me to capture moments and tell stories through a different kind of lens, 
               bringing unique perspectives to life through my camera.
@@ -99,7 +99,7 @@ export default function About() {
             <SocialLink
               href="mailto:vivekvernekar21@gmail.com"
               icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+              className="mt-8 border-t border-zinc-300 pt-8 dark:border-zinc-700/40"
             >
               vivekvernekar21@gmail.com
             </SocialLink>

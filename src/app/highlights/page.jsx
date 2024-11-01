@@ -42,7 +42,7 @@ export default function Highlights() {
           {icons.map((icon, index) => (
             <Image
               key={index}
-              className='dark:bg-white bg-black rounded-2xl p-2.5 w-12 h-12 sm:w-16 sm:h-16'
+              className='dark:bg-zinc-100 bg-gray-800 rounded-2xl p-3 w-12 h-12 sm:w-16 sm:h-16'
               src={icon.src}
               alt={icon.alt}
               width={64} 

@@ -75,7 +75,7 @@ const Resume = () => {
   ];
 
   return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div className="rounded-2xl border border-zinc-300 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Work</span>
@@ -83,7 +83,7 @@ const Resume = () => {
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image src={role.logo} alt="" className="h-8 w-8 rounded-full" unoptimized />
             </div>
             <div className="flex flex-col flex-auto">
@@ -117,7 +117,7 @@ const Resume = () => {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/file/d/1YGahxUQ6iAaIhuDzIjJAHGfSqnkI2xq6/view?usp=sharing"
+        href="https://drive.google.com/file/d/1uAx1rMWf30SosWzBu3OwCvfzTVdfvZ_6/view?usp=sharing"
         variant="secondary"
         className="group mt-6 w-full"
       >

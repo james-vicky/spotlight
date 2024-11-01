@@ -3,7 +3,7 @@ import { FaChalkboardTeacher, FaCamera, FaDumbbell, FaCube, FaKeyboard, FaCode }
 
 function Interests() {
   return (
-    <div className="mt-6 text-sm rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 text-white">
+    <div className="mt-6 text-sm rounded-2xl border border-zinc-300 p-6 dark:border-zinc-700/40 dark:text-zinc-100">
       <span className='flex'>
         <MdOutlineWorkspacePremium className='text-gray-500 text-2xl mr-2' />
         <h3 className="font-semibold mb-4">Interests</h3>
