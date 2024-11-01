@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Photos from '@/utils/Photos'
-import Interests  from "@/components/Interests"
+import Achievements from '@/components/Achievements'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Card } from '@/components/Card'
@@ -17,7 +17,6 @@ import {
   LeetCodeIcon,
   BriefcaseIcon, 
   ArrowDownIcon,
-  InterestsIcon
 } from '@/utils/Icons'
 
 function Article({ article }) {
@@ -49,7 +48,7 @@ const Resume = () => {
       company: 'E1 Consulting',
       title: 'Workday Extend Developer',
       logo: logoE1,
-      start: 'Oct 2024',
+      start: "Oct'24",
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -59,9 +58,9 @@ const Resume = () => {
       company: 'AmberStudent',
       title: 'Operations Support Intern',
       logo: logoAmber,
-      start: 'May 2024',
+      start: "May'24",
       end: {
-        label: 'Aug 2024',
+        label: "Aug'24",
         dateTime: new Date().getFullYear(),
       }
     },
@@ -69,8 +68,8 @@ const Resume = () => {
       company: 'iNeuron',
       title: 'Full Stack Developer Intern',
       logo: logoIneuron,
-      start: 'Jan 2023',
-      end: 'Jan 2024',
+      start: "Jan'23",
+      end: "Jan'24",
     },
   ];
 
@@ -179,7 +178,7 @@ export default async function Home() {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Resume />
-            <Interests />
+            <Achievements />
           </div>
         </div>
       </Container>

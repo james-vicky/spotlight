@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
-// Import your images
 import landscape1 from '@/images/photography/landscape1.jpg'
 import landscape2 from '@/images/photography/landscape2.jpg'
 import landscape3 from '@/images/photography/landscape3.jpg'
