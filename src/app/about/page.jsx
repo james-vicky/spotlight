@@ -70,7 +70,7 @@ export default function About() {
               and excel in technical interviews. We focus on practical, hands-on learning experiences.
             </p>
             <p>
-              Outside of tech, I’m a photographer and own <a href='https://www.instagram.com/zsnapstudios/' target='blank' className='text-yellow-300 font-semibold'>Z-Snap Studios</a>. 
+              Outside of tech, I own <a href='https://www.instagram.com/zsnapstudios/' target='blank' className='text-yellow-300 font-semibold'>Z-Snap Studios</a> as a passionate photographer. 
               Armed with my Nikon Z30, I pursue freelance photography, 
               specializing in events and portraits. This creative outlet allows me to capture moments and tell stories through a different kind of lens, 
               bringing unique perspectives to life through my camera.
@@ -82,9 +82,6 @@ export default function About() {
             <p>
               To stay active and sharp, I engage in speed typing, weight training, 
               and speed cubing, activities that keep my mind and body in peak form and help me stay quick with puzzles and problem-solving.
-            </p>
-            <p>
-              Join me as I continue to explore the world of software development, pushing boundaries, and creating solutions that make a meaningful impact.
             </p>
           </div>
         </div>
