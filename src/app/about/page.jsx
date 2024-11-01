@@ -61,12 +61,12 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Hello! I’m <span className='text-white'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in Java full-stack development, 
+              Hello! I&apos;m <span className='text-white'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in Java full-stack development, 
               with a primary focus on front-end technologies like React JS and Tailwind CSS. 
-              My journey in programming started two years ago, and since then, I've honed my skills by creating impactful applications and tackling real-world challenges.
+              My journey in programming started two years ago, and since then, I&apos;ve honed my skills by creating impactful applications and tackling real-world challenges.
             </p>
             <p>
-              As the founder of <a href='https://marvelous-kheer-aaf2d6.netlify.app/' target='blank' className='font-semibold text-purple-400'>Sigma Next</a>, I'm building an ed-tech platform that empowers students to master programming, develop innovative applications, 
+              As the founder of <a href='https://marvelous-kheer-aaf2d6.netlify.app/' target='blank' className='font-semibold text-purple-400'>Sigma Next</a>, I&apos;m building an ed-tech platform that empowers students to master programming, develop innovative applications, 
               and excel in technical interviews. We focus on practical, hands-on learning experiences.
             </p>
             <p>
