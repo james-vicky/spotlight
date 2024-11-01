@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
@@ -58,31 +57,34 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Crafting Code, Solving Problems, Building Futures
+            Innovating Through Code, Education, and Creativity
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I am Vivekanand Vernekar, a passionate software developer from India. 
-              My journey in the tech world began with a strong foundation in Java Full Stack development, 
-              complemented by coursework in core computer science subjects to enhance my technical knowledge.
+              Hello! I’m <span className='text-white'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in Java full-stack development, 
+              with a primary focus on front-end technologies like React JS and Tailwind CSS. 
+              My journey in programming started two years ago, and since then, I've honed my skills by creating impactful applications and tackling real-world challenges.
             </p>
             <p>
-              With 2+ years of experience at a dynamic startup, I have honed my skills in building robust applications
-              using React JS and Spring Boot. My contributions to various projects have equipped me with a deep understanding
-              of popular technologies, and my personal projects, showcased on GitHub, reflect my dedication to continuous learning and innovation.
+              As the founder of <a href='https://marvelous-kheer-aaf2d6.netlify.app/' target='blank' className='font-semibold text-purple-400'>Sigma Next</a>, I'm building an ed-tech platform that empowers students to master programming, develop innovative applications, 
+              and excel in technical interviews. We focus on practical, hands-on learning experiences.
             </p>
             <p>
-              To sharpen my problem-solving abilities, I actively engage in solving data structure and algorithm
-              challenges on Leetcode, with over 500 problems solved. My commitment to staying current with industry 
-              trends drives me to read articles and participate in online coding contests on platforms like Codeforces.
+              Outside of tech, I’m a photographer and own <a href='https://www.instagram.com/zsnapstudios/' target='blank' className='text-yellow-300 font-semibold'>Z-Snap Studios</a>. 
+              Armed with my Nikon Z30, I pursue freelance photography, 
+              specializing in events and portraits. This creative outlet allows me to capture moments and tell stories through a different kind of lens, 
+              bringing unique perspectives to life through my camera.
             </p>
             <p>
-              Beyond coding, my hobbies include speed typing, speed cubing, playing chess, and weight training. 
-              These activities not only keep me engaged but also enhance my cognitive skills and physical well-being.
+              I’m also an avid competitive programmer on platforms like LeetCode and Codeforces, 
+              where I challenge myself to solve complex problems and refine my coding skills.
             </p>
             <p>
-              Join me on my journey as I continue to explore the endless possibilities of software development, 
-              aiming to build solutions that make a difference.
+              To stay active and sharp, I engage in speed typing, weight training, 
+              and speed cubing, activities that keep my mind and body in peak form and help me stay quick with puzzles and problem-solving.
+            </p>
+            <p>
+              Join me as I continue to explore the world of software development, pushing boundaries, and creating solutions that make a meaningful impact.
             </p>
           </div>
         </div>
