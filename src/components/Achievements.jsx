@@ -14,7 +14,7 @@ function Achievements() {
         <li>
           <div className="flex items-center">
             <FaTelegramPlane className="mr-3 text-teal-500 text-lg" />
-            <h4 className="font-medium">16K+ Subscribers on Telegram Notes Channel</h4>
+            <h4 className="font-medium">20K+ Subscribers on Telegram Notes Channel</h4>
           </div>
           <p className="ml-[30px] text-zinc-500 dark:text-zinc-400">Handwritten Notes for GATE 2024</p>
         </li>

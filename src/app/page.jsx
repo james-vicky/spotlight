@@ -8,7 +8,7 @@ import { Card } from '@/components/Card'
 import { formatDate } from '@/lib/formatDate'
 import logoE1 from '@/images/logos/e1.svg'
 import logoAmber from '@/images/logos/amber.svg'
-import logoIneuron from '@/images/logos/ineuron.svg'
+import logoUpwork from "@/images/logos/upwork.png"
 import { getAllArticles } from '@/lib/getAllArticles'
 import {
   GitHubIcon,
@@ -46,7 +46,7 @@ const Resume = () => {
   let resume = [
     {
       company: 'E1 Consulting',
-      title: 'Workday Extend Developer',
+      title: 'Software Developer',
       logo: logoE1,
       start: "Oct'24",
       end: {
@@ -56,18 +56,18 @@ const Resume = () => {
     },
     {
       company: 'AmberStudent',
-      title: 'Operations Support Intern',
+      title: 'SDE Intern - Frontend',
       logo: logoAmber,
-      start: "May'24",
+      start: "Feb'24",
       end: {
-        label: "Aug'24",
+        label: "Sep'24",
         dateTime: new Date().getFullYear(),
       }
     },
     {
-      company: 'iNeuron',
-      title: 'Full Stack Developer Intern',
-      logo: logoIneuron,
+      company: 'Freelance',
+      title: 'Full Stack Developer',
+      logo: logoUpwork,
       start: "Jan'23",
       end: "Jan'24",
     },
@@ -116,7 +116,7 @@ const Resume = () => {
         ))}
       </ol>
       <Button
-        href="https://drive.google.com/file/d/1uAx1rMWf30SosWzBu3OwCvfzTVdfvZ_6/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ua-5tIaRw7z9uM_3MzTQ_Fv6ndTaLOrI/view"
         variant="secondary"
         className="group mt-6 w-full"
       >
@@ -138,7 +138,7 @@ export default async function Home() {
             Software Engineer, Mentor, and Photographer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Vivekanand Vernekar, a passionate full-stack software engineer with over 2 years of experience building powerful and scalable web applications using Java and React. 
+            I&apos;m Vivekanand Vernekar, a passionate full-stack software engineer with over 2 years of experience building powerful and scalable web applications using Java, Spring Boot & MERN stack. 
             Beyond coding, I enjoy mentoring aspiring developers and sharing my journey. When I’m not in front of a screen, you’ll find me capturing stories through my lens. 
             Driven by innovation and creativity, I&apos;m constantly exploring ways to merge my technical expertise with artistic pursuits, bringing both precision and inspiration to every project I take on.
           </p>

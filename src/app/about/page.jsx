@@ -61,19 +61,18 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Hello! I&apos;m <span className='dark:text-white'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in Java full-stack development, 
-              with a primary focus on front-end technologies like React JS and Tailwind CSS. 
-              My journey in programming started two years ago, and since then, I&apos;ve honed my skills by creating impactful applications and tackling real-world challenges.
+              Hello! I&apos;m <span className='dark:text-white text-black'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in full-stack development, 
+              specializing in building robust, scalable applications using Java Spring Boot and the MERN stack (MongoDB, Express.js, React, and Node.js). I enjoy creating impactful solutions 
+              that solve real-world problems and improve user experiences.
             </p>
             <p>
-              As the founder of <a href='https://marvelous-kheer-aaf2d6.netlify.app/' target='blank' className='font-semibold dark:text-purple-400 text-purple-700'>Sigma Next</a>, I&apos;m building an ed-tech platform that empowers students to master programming, develop innovative applications, 
-              and excel in technical interviews. We focus on practical, hands-on learning experiences.
+              My technical journey began with a deep curiosity for how systems work, and over time, 
+              I’ve worked on several end-to-end projects involving microservices, APIs, UI/UX, and performance optimization. Whether it's building enterprise-grade platforms or side projects that scratch a personal itch, 
+              I strive for clean, maintainable code and practical solutions.
             </p>
             <p>
-              Outside of tech, I own <a href='https://www.instagram.com/zsnapstudios/' target='blank' className='dark:text-yellow-300 text-yellow-500 font-semibold'>Z-Snap Studios</a> as a passionate photographer. 
-              Armed with my Nikon Z30, I pursue freelance photography, 
-              specializing in events and portraits. This creative outlet allows me to capture moments and tell stories through a different kind of lens, 
-              bringing unique perspectives to life through my camera.
+              Beyond tech, I keep myself sharp and balanced with a mix of creative and physical activities. 
+              I'm a casual photographer using my Nikon Z30 to capture moments that inspire me—mostly during travels or while exploring nature. 
             </p>
             <p>
               I’m also an avid competitive programmer on platforms like LeetCode and Codeforces, 
