@@ -9,6 +9,7 @@ import { formatDate } from '@/lib/formatDate'
 import logoE1 from '@/images/logos/e1.svg'
 import logoAmber from '@/images/logos/amber.svg'
 import logoUpwork from "@/images/logos/upwork.png"
+import logoZethic from "@/images/logos/zethic.png"
 import { getAllArticles } from '@/lib/getAllArticles'
 import {
   GitHubIcon,
@@ -45,12 +46,22 @@ function SocialLink({ icon: Icon, ...props }) {
 const Resume = () => {
   let resume = [
     {
+      company: 'Zethic Technologies',
+      title: 'Junior Fullstack Developer',
+      logo: logoZethic,
+      start: "June'25",
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      }
+    },
+    {
       company: 'E1 Consulting',
       title: 'Software Developer',
       logo: logoE1,
       start: "Oct'24",
       end: {
-        label: 'Present',
+        label: "May'25",
         dateTime: new Date().getFullYear(),
       }
     },

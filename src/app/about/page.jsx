@@ -62,20 +62,20 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               Hello! I&apos;m <span className='dark:text-white text-black'>Vivekanand Vernekar</span>, a software engineer with over 2 years of experience in full-stack development, 
-              specializing in building robust, scalable applications using Java Spring Boot and the MERN stack (MongoDB, Express.js, React, and Node.js). I enjoy creating impactful solutions 
+              specializing in building robust, scalable applications using Java Spring Boot and the MERN stack. I enjoy creating impactful solutions 
               that solve real-world problems and improve user experiences.
             </p>
             <p>
               My technical journey began with a deep curiosity for how systems work, and over time, 
-              I’ve worked on several end-to-end projects involving microservices, APIs, UI/UX, and performance optimization. Whether it's building enterprise-grade platforms or side projects that scratch a personal itch, 
+              I&apos;ve worked on several end-to-end projects involving microservices, APIs, UI/UX, and performance optimization. Whether it&apos;s building enterprise-grade platforms or side projects that scratch a personal itch, 
               I strive for clean, maintainable code and practical solutions.
             </p>
             <p>
               Beyond tech, I keep myself sharp and balanced with a mix of creative and physical activities. 
-              I'm a casual photographer using my Nikon Z30 to capture moments that inspire me—mostly during travels or while exploring nature. 
+              I&apos;m a casual photographer using my Nikon Z30 to capture moments that inspire me—mostly during travels or while exploring nature. 
             </p>
             <p>
-              I’m also an avid competitive programmer on platforms like LeetCode and Codeforces, 
+              I&apos;m also an avid competitive programmer on platforms like LeetCode and Codeforces, 
               where I challenge myself to solve complex problems and refine my coding skills.
             </p>
             <p>
