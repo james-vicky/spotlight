@@ -29,14 +29,16 @@ export default function CareerVisualization() {
     { date: "Jul'24-Oct'24", role: "Gap", annualCTC: 0, monthlyInHand: 0, status: "Gap" },
     { date: "Oct'24-Jan'25", role: "Developer Intern", annualCTC: 180000, monthlyInHand: 13500, status: "Employed", company: "E1 Consulting" },
     { date: "Jan'25-May'25", role: "Developer", annualCTC: 260000, monthlyInHand: 19500, status: "Employed", company: "E1 Consulting" },
-    { date: "Jun'25-Present", role: "Junior FullStack Developer", annualCTC: 440000, monthlyInHand: 33000, status: "Employed", company: "Zethic Technologies" }
+    { date: "Jun'25-Aug'25", role: "Junior FullStack Developer", annualCTC: 440000, monthlyInHand: 33000, status: "Employed", company: "Zethic" },
+    { date: "Sep'25-Present", role: "Software Engineer", annualCTC: 800000, monthlyInHand: 63000, status: "Employed", company: "Indpro" }
   ];
 
   const hikesData = [
     { role: "Operations Intern", hike: 0 },
     { role: "Developer Intern", hike: 25 },
     { role: "Developer", hike: 35 },
-    { role: "Junior FullStack Developer", hike: 75 }
+    { role: "Junior FullStack Developer", hike: 75 },
+    { role: "Software Engineer", hike: 82 },
   ];
 
   const [activeTab, setActiveTab] = useState('salary');
@@ -120,21 +122,21 @@ export default function CareerVisualization() {
               <span className="font-semibold">Career Span:</span> Sep 2022 - Present
             </p>
             <p className="text-sm text-gray-700">
-              <span className="font-semibold">Current Role:</span> Junior FullStack Dev at Zethic Technologies
+              <span className="font-semibold">Current Role:</span> Software Engineer at Indpro
             </p>
             <p className="text-sm text-gray-700">
-              <span className="font-semibold">Positions Held:</span> 4
+              <span className="font-semibold">Positions Held:</span> 5
             </p>
           </div>
           <div className="bg-green-50 p-3 rounded-md">
             <p className="text-sm text-gray-700">
-              <span className="font-semibold">Salary Growth:</span> ₹0 → ₹4.4L (Annual CTC)
+              <span className="font-semibold">Salary Growth:</span> ₹0 → ₹8L (Annual CTC)
             </p>
             <p className="text-sm text-gray-700">
-              <span className="font-semibold">Latest Monthly In-hand:</span> ₹33,000
+              <span className="font-semibold">Latest Monthly In-hand:</span> ₹63,000
             </p>
             <p className="text-sm text-gray-700">
-              <span className="font-semibold">Highest Hike:</span> 75% (E1 Consulting → Zethic Technologies)
+              <span className="font-semibold">Highest Hike:</span> 82% (Zethic Technologies → Indpro)
             </p>
           </div>
         </div>

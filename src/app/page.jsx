@@ -10,6 +10,7 @@ import logoE1 from '@/images/logos/e1.svg'
 import logoAmber from '@/images/logos/amber.svg'
 import logoUpwork from "@/images/logos/upwork.png"
 import logoZethic from "@/images/logos/zethic.png"
+import logoIndpro from "@/images/logos/indpro.png"
 import { getAllArticles } from '@/lib/getAllArticles'
 import {
   GitHubIcon,
@@ -46,12 +47,22 @@ function SocialLink({ icon: Icon, ...props }) {
 const Resume = () => {
   let resume = [
     {
+      company: 'Indpro',
+      title: 'Software Engineer',
+      logo: logoIndpro,
+      start: "September'25",
+      end: {
+        label: "Present",
+        dateTime: new Date().getFullYear(),
+      }
+    },
+    {
       company: 'Zethic Technologies',
-      title: 'Junior Fullstack Developer',
+      title: 'Fullstack Developer',
       logo: logoZethic,
       start: "June'25",
       end: {
-        label: 'Present',
+        label: "August'25",
         dateTime: new Date().getFullYear(),
       }
     },
@@ -66,21 +77,11 @@ const Resume = () => {
       }
     },
     {
-      company: 'AmberStudent',
-      title: 'SDE Intern - Frontend',
-      logo: logoAmber,
-      start: "Feb'24",
-      end: {
-        label: "Sep'24",
-        dateTime: new Date().getFullYear(),
-      }
-    },
-    {
       company: 'Freelance',
       title: 'Full Stack Developer',
       logo: logoUpwork,
       start: "Jan'23",
-      end: "Jan'24",
+      end: "July'24",
     },
   ];
 
